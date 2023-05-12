@@ -1,0 +1,26 @@
+.btn-click{
+    width: 70%;
+    height: 40%;
+    margin: 0 auto;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(41, 61, 7);
+    border: 2px solid rgb(34, 48, 9);
+}
+
+.click-button{
+    background-color: rgb(199, 221, 160);
+}
+
+.reset-button{
+    background-color: darkolivegreen;
+}
+
+
+
+@media (200px < width <= 500px) {
+    .btn-click{
+        font-size: 15px;
+    }
+}
